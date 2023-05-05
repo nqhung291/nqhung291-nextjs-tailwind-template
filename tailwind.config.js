@@ -1,5 +1,5 @@
-/** @type {import('tailwindcss').Config} */
 const { fontFamily } = require("tailwindcss/defaultTheme")
+/** @type {import('tailwindcss').Config} */
 
 module.exports = {
   content: [
@@ -8,6 +8,12 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: "1.5rem",
+      },
+    },
     extend: {
       fontFamily: {
         sans: ["var(--font-inter)", ...fontFamily.sans],
