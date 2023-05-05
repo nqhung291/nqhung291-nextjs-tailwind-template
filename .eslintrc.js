@@ -5,6 +5,7 @@ module.exports = {
     "prettier",
     "plugin:tailwindcss/recommended",
   ],
+  plugin: ["tailwindcss"],
   settings: {
     tailwindcss: {
       callees: ["cn"],
