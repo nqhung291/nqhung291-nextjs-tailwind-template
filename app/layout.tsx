@@ -1,4 +1,5 @@
 import "@/styles/globals.css"
+
 import { inter } from "@/utils/fonts"
 
 export const metadata = {
